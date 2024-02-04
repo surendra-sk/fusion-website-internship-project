@@ -1,0 +1,583 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+    /* background: grey; */
+}
+#nav1{
+    width: 100%;
+    height: 4%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#leftnav1{
+    position: fixed;
+    display: flex;
+    /* transform: skewX(-35deg); */
+    
+    margin-left: -5px;
+    padding: 3px;
+    width: 33%;
+    background: #f7901e;
+    position: absolute;
+    height: 4.8%;
+    color: white;
+    /* left: 20%; */
+    display: flex;
+    justify-items: center;
+    /* padding: 10px; */
+    font-family: Poppins;
+    font-style: normal;
+    
+}
+p{
+    margin-left: px;
+    font-size: 22px;
+
+    padding: 5px;
+}
+#mail2{
+    margin-left: 3px;
+}
+
+img{
+    padding: 5px;
+}
+#img1{
+    /* padding: 5px; */
+    margin-left: 70px;
+}
+img{
+    height: 30px;
+    width: 25px;
+}
+#midnav1 p{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    /* left: 50%; */
+    right: 36%;
+}
+#rightnav11{
+    display: flex;
+    margin-right: 30px;
+   
+}
+#rightnav11 a{
+    font-size: 25px;
+
+}
+#countries{
+    margin-right: 10px;
+}
+#countries a{
+    text-decoration: none;
+    
+}
+
+
+/* second nav bar */
+#nav2{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo img{
+    margin-top: 22px;
+    width: 300px;
+    height: 100px;
+}
+#nav2 #menu a{
+    position: relative;
+    font-size: 24px;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 5px;
+    color: black;
+    left: 11%;
+}
+#consult button{
+    margin-right: 7px;
+    display: flex;
+    height: 45px;
+    border-radius: 13px;
+    background:gray;
+    color: white;
+}
+#consult button img{
+    margin: 5px;
+    z-index: 1
+}
+#consult button p{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 3px 8px 1px 0;
+    /* margin-right: 2; */
+}
+
+
+/* header image */
+
+#headerimage{
+    display: flex;
+     /* background: rgba(0, 0, 0, 0.7); */
+    position: relative;
+    width: 100%;
+    height: 60vh;
+}
+#headerimage img{ 
+   position: absolute;
+    width: 100%;
+    height: 60vh;
+    /* margin-top: 13px; */
+}
+#headerimage p {
+    position: absolute;
+    top: 8%;
+    left: 40%;
+    color: orange;
+}
+#headerimage h1{
+    inline-size: 1000px;
+    overflow: hidden;
+    position: absolute;
+    top: 30%;
+    left: 23%;
+    font-size: 60px;
+    letter-spacing: 0.8px;
+    color: white;
+    font-family: 'Poppins', sans-serif !important;
+}
+#headerimage p a{
+    color: orange;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#headerimage section img{
+    position: absolute;
+    
+    top: 80%;
+    right: 45%;
+    width: 50px;
+    height: 50px;
+}
+#headerimage section #play{
+    margin-right: 50px;
+}
+
+
+/* fourth */
+
+.btnCOn{
+    display: flex;
+    
+    justify-content: center;
+}
+.btnCOn button{
+    margin-top: 20px;
+    margin-right: 8px;
+    width: 208px;
+    color: black;
+    background: #f7901e;
+    height: 57px;
+    font-size: 20px;
+    border: none;
+   
+}
+.btnCOn a{
+ text-decoration: none;
+}
+.line{
+    width: 80%;
+    height: 5px;
+    color: black;
+    
+}
+.fifth{
+    margin-top: 120px;
+    margin-left: 30px;
+}
+.fifth h1{
+    font-size: 40px;
+    position: absolute;
+    left: 40%;
+    top: 92%;
+}
+.fifth p{
+    /* position: absolute; */
+    top: 100%;
+    inline-size: 1300px;
+    padding: 10px;
+    font-size: 25px;
+    margin-left: 80px;
+    color: grey;
+    
+}
+.six{
+    width: 100%;
+    height: 750px;
+}
+.six img{position: relative;
+    width: 100%;
+    height:750px;
+}
+.seven{
+    background: white;
+    /* display: flex; */
+    width: 80%;
+    height: 600px;
+    position: absolute;
+    top: 165%;
+    left: 8%;
+    border-radius: 20px;
+}
+.seven img{
+    border-radius: 50%;
+    width: 140px;
+    height: 120px;
+}
+.seven #title{
+    position: absolute;
+    font-size: 25px;
+    inline-size: 400px;
+    left: 12%;
+    top: 4%;
+    
+}
+.horiline{
+    width: 100%;
+    height: 1px;
+    background: gray;
+    position: absolute;
+    top: 20%;
+}
+.seven #para{
+padding: 15px;
+font-weight: 200;
+color: grey;
+}
+.seven h3{
+    font-size: 30px;
+    margin: 25px;
+}
+.seven span{
+    color: gray;
+    font-weight: 800;
+}
+.unravel h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    position: absolute;
+    left: 40%;
+    margin-top: 30px;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+
+}
+.btn button{
+    margin-top: 90px;
+    width: 210px;
+    height: 57px;
+    margin-right: 10px;
+    font-size: 28px;
+    background: transparent;
+    
+
+}
+.btn a{
+    color: black;
+    text-decoration: none;
+}
+.intro{
+    position: absolute;
+    width: 98%;
+    height: 500px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    left: 1%;
+    display: flex;
+}
+.intro img{
+    width: 20%;
+    height: 60%;
+    margin: 55px 0 0 25px;
+    border: 2px solid #f7901e;
+    border-radius: 6px;
+}
+.intro h1{
+    position: absolute;
+top: 15%;
+left: 25%;
+color: #F79D1A;
+font-size: 50px;
+}
+.intro h2{
+    position: absolute;
+    right: 20%;
+    left: 25%;
+    top: 22%;
+    font-weight: 100;
+    
+}
+.intro p{
+    color: gray;
+    position: absolute;
+    top: 40%;
+    left: 23%;
+    letter-spacing: 1px;
+    font-size: 25px;
+    inline-size: 900px;
+}
+.intro #linkedin{
+    width: 70px;
+    position: relative;
+    height: 70px;
+    left: 65%;
+} 
+section{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 37%;
+    
+}
+.headline h1{
+    position: absolute;
+    top: 50%;
+    left: 39%;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+#podcastimage{
+    display: flex;
+    align-items: center;
+    top: 45%;
+    position: relative;
+    padding-inline-start: 0%;
+    
+}
+#podcastimage img{
+    margin: 10px;
+   width: 90%;
+   height: 32%;
+   border: 1px solid orange;
+   border-radius: 7px;
+   box-shadow: 0 3px 6px #00000029;
+}
+.podcastheadlines{
+    display: flex;
+}
+.podcastheadlines p{
+    position: relative;
+    inline-size: 300px; 
+    top: -60%;
+    margin-right: 80px;
+    left: 4%;
+    padding: 12px;
+    text-align: center;
+    color: grey;
+}
+.subscribe{
+    display: flex;
+    
+}
+.subscribe h2{
+    margin-right: 10px;
+    font-size: 35px;
+    color: #f7901e;
+}
+.subscribe img{
+    width: 40px;
+    height: 40px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+.audio{
+    /* background: black; */
+    width: 60%;
+    height: 115px;
+    display: flex;
+    position: absolute;
+    top: 1%;
+    left: 8%;
+    margin-left: 380px;
+    /* border: 2px solid black; */
+}
+.audio #playbtn{
+    width: 60px;
+    height: 60px;
+    /* top: 50%; */
+    margin: 20px 10px ;
+}
+#waveform{
+    width: 800px;
+}
+
+.footer{
+    width: 100%;
+    height: 380px;
+    margin-top: 320px;
+    /* background: wheat; */
+    
+}
+.footer img{
+    width: 100%;
+    height: 380px;
+}
+.footer p{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    top: 65%;
+    
+}
+.footer button{
+    position: absolute;
+    width: 140px;
+    height: 48px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    background: #f7901e;
+    border: 1px solid #f7901e ;
+    border-radius: 15px;
+    cursor: pointer;
+    top: 80%;
+    
+}
+
+.last{
+    width: 100%;
+    height: 132px;
+    display: flex;
+    justify-content: space-between;
+    background: #212529;
+  
+}
+#left{
+    display: flex;
+    position: absolute;
+    top: 4%;
+    left: -21%;
+    padding: 14px;
+    background: #212529;
+ 
+}
+.con{
+   margin-right: 63px;
+   
+}
+.con a{
+    color: white;
+    text-decoration: none;
+}
+.last img{
+    margin-top: px;
+    padding: 4px;
+    top: 20px;
+}
+.last h5{
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+}
+.bottom{
+    display: flex;
+    position: relative;
+    left: -22%;
+    top: 40%;
+    background: #212529;
+}
+.bottomdiv{
+    margin: 60px;
+    position: relative;
+    
+    
+    
+    
+}
+.bottomdiv h2 ,li{
+margin-bottom: 15px;
+color: white;
+
+}
+.bottomdiv img{
+    position: absolute;
+    width: 190%;
+    height: 80%;
+    top: 22%;
+    left:77%;  
+}
+#right{
+    display: flex;
+    flex-direction: column; 
+    left: 69%;
+    padding: 50px;
+    position: absolute;
+    width: 500px; 
+    height: 435px;
+    top: 20%;
+    background: #212529;
+  
+}
+
+.leftmain{
+    position: relative;
+    width: 70%;
+    left: 0%;
+    background: #212529;
+    height: 330px;
+    /* display: flex; */
+    /* justify-content:space-between; */
+    
+}
+#right h1{
+    font-size: 35px;
+    margin-bottom: 25px;
+    color: white;
+}
+#right input{
+    margin-bottom: 10px;
+    height: 35px;
+    width: 290px;
+    padding: 2px;
+    margin-right: 20px;
+}
+#right button{
+    width: 150px;
+    height: 40px;
+    border: 1px solid orange;
+    background: orange;
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
